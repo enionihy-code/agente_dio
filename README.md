@@ -107,15 +107,19 @@ Não precisa de comando especial nem de formato perfeito: o agente conduz a conv
 
 ## 🧩 As skills do agente
 
-Uma **skill** é uma habilidade do agente, descrita em um guia passo a passo. O DIO Agent vem com três:
+Uma **skill** é uma habilidade do agente, descrita em um guia passo a passo. O DIO Agent vem com cinco:
 
 | Skill | Para que serve |
 |-------|----------------|
 | [Plano de estudos](skills/study-plan/SKILL.md) | Organiza o que estudar, em que ordem e em quanto tempo |
 | [Destravar desafio](skills/unblock-challenge/SKILL.md) | Conduz você até a solução de um desafio, sem dar a resposta pronta |
 | [Explicar conceito](skills/explain-concept/SKILL.md) | Explica conceitos de forma didática, com analogias e exemplos |
+| [Pesquisa na web](skills/web-search/SKILL.md) | Responde dúvidas atuais (versões, lançamentos, mercado) com fontes citadas |
+| [Revisão de portfólio](skills/portfolio-review/SKILL.md) | Dá feedback sobre o seu portfólio e GitHub antes de buscar vagas |
 
 Você não precisa "chamar" uma skill. O agente percebe o que você precisa e usa a skill certa sozinho.
+
+> 🔎 A skill de **Pesquisa na web** usa a busca do You.com, que você conecta uma única vez ao seu harness (há uma opção gratuita e sem cadastro). Veja o passo a passo em [Conectar a busca do You.com](docs/youcom-mcp.md).
 
 ---
 
@@ -137,10 +141,13 @@ dio-agent/
 │   ├── README.md                    O que são skills
 │   ├── study-plan/                  Skill: plano de estudos
 │   ├── unblock-challenge/           Skill: destravar desafio
-│   └── explain-concept/             Skill: explicar conceito
+│   ├── explain-concept/             Skill: explicar conceito
+│   ├── web-search/                  Skill: pesquisa na web
+│   └── portfolio-review/            Skill: revisão de portfólio
 │
 └── docs/
-    └── glossary.md                  Glossário de termos
+    ├── glossary.md                  Glossário de termos
+    └── youcom-mcp.md                Como conectar a busca do You.com
 ```
 
 > 🔍 **Por que funciona em qualquer harness?** O coração do projeto é o arquivo `AGENTS.md`, um padrão aberto que harnesses modernos sabem ler. O `CLAUDE.md` apenas aponta para ele, então você pode usar o harness que preferir.

@@ -24,7 +24,7 @@ Uma skill é uma habilidade específica do agente, descrita em um guia passo a p
 
 *Analogia:* são as receitas de um cozinheiro. Cada receita é uma skill para preparar um prato específico.
 
-O DIO Agent tem três skills: plano de estudos, destravar desafio e explicar conceito.
+O DIO Agent tem cinco skills: plano de estudos, destravar desafio, explicar conceito, pesquisa na web e revisão de portfólio.
 
 ## Repositório
 

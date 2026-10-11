@@ -20,6 +20,7 @@ Por exemplo, se o estudante diz "não sei por onde começar", o agente usa a ski
 | [unblock-challenge](unblock-challenge/SKILL.md) | Destravar um desafio sem entregar a resposta | "Travei nesse desafio, me ajuda?" |
 | [explain-concept](explain-concept/SKILL.md) | Explicar um conceito de forma didática | "Não entendi o que é uma API." |
 | [web-search](web-search/SKILL.md) | Fundamentar respostas com busca atual e fontes citadas | "Qual a versão estável do Node hoje?" |
+| [portfolio-review](portfolio-review/SKILL.md) | Revisar o portfólio com foco em vagas e entrevistas | "O que falta no meu GitHub para uma vaga júnior?" |
 
 ## Como criar uma nova skill
 
